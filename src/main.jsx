@@ -5,7 +5,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
-import Student from './roites/Student.jsx'
+import Student from './routes/Student.jsx'
 
 {/* CREATING THE FUNCTION BROWSER ROUTER */}
 
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     errorElement:<Error/>,
 
     children:[
-      {path:'/',element:<Home/>}
-      {path:'/student',element:<Student/>}
+      {path:'/',element:<Home/>},
+      {path:'/student',element:<Student/>},
     ]
   }
 ])
