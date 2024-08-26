@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
 import Student from './routes/Student.jsx'
+import Page1 from './routes/Page1.jsx'
 
 {/* CREATING THE FUNCTION BROWSER ROUTER */}
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
     children:[
       {path:'/',element:<Home/>},
       {path:'/student',element:<Student/>},
+      {path:'/page1',element:<Page1/>}
     ]
   }
 ])
